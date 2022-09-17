@@ -10,35 +10,24 @@
 }
 
 body {
+  position: relative;
+}
+
+.background-image img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.body-container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  margin: 0;
-  overflow: hidden;
-  background: linear-gradient(to left, red, orange, yellow, green, blue, purple);
-  /* background-image: url("images/pexels-pixabay-medium-358312.jpg"); */
-  background-position: center;
-  background-size: cover;
-}
-
-img {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.blur {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(253, 246, 246, 0.6);
-  z-index: -1;
-  display: none;
 }
 
 #portfolio {
@@ -55,7 +44,6 @@ img {
   cursor: pointer;
 }
 
-
 button, .sign-up, .results {
   background-color: rgb(255, 255, 255);
   border: 3px solid rgba(173, 18, 137, 0.548);
@@ -66,6 +54,7 @@ button, .sign-up, .results {
 /* landing page */
 .btn-start {
   width: 200px;
+  margin: auto;
   padding: 10px;
 }
 
@@ -158,3 +147,28 @@ input[type="text"] {
   padding-bottom: 7px;
   margin-bottom: 4px;
 }
+
+
+/* Extra small devices (phones, 450px and down) */
+@media only screen and (max-width: 450px) {
+  #portfolio {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .sign-up, .results {
+    position: relative;
+    width: 300px;
+    height: 550px;
+    padding: 10px;
+    margin-top: 20px;
+    overflow: initial;
+  }
+  
+  .btn-position {
+    position: absolute;
+    left: 71%;
+    bottom: 5%;
+    transform: translateX(-50%);
+  }
