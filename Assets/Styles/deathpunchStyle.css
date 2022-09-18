@@ -123,17 +123,21 @@ li {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  
-  .main-container {
-    width: 85%;
-  }
 
   h1 {
     font-size: 44px;
-    margin-top: 25px;
   }
 
   h3 {
     font-size: 20px;
   }
+  
+  header {
+    padding-top: 30px;
+  }
+
+  .main-container {
+    width: 85%;
+  }
+
 }
