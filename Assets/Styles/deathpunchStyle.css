@@ -19,6 +19,11 @@ body {
   text-decoration: none;
 }
 
+#portfolio:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 h1 {
   font-size: 84px;
   text-shadow: -3px -3px 1px rgb(187, 123, 6), 3px 3px 1px #ffffff;
@@ -35,24 +40,18 @@ p {
 
 .main-container {
   width: 90%;
+  height: 100vh;
   margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
 }
 
 header {
   text-align: center;
-  padding-top: 20px; 
+  padding-top: 20px;
 }
 
 .mid-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 80%;
-  height: 60%;
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
 }
 
@@ -70,6 +69,7 @@ header {
 iframe {
   box-sizing: content-box;
   padding: 45px 10px 0;
+  margin: auto;
   max-width: fit-content;
 }
 
@@ -83,27 +83,39 @@ iframe {
 }
 
 #disclaimer {
-  width: 400px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  max-width: 400px;
+  margin: 10px auto 20px;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 80%;
   margin: auto;
   padding-top: 70px;
   padding-bottom: 30px;
 }
 
-footer button {
-  background-color: black;
-  color: orange;
+.nav {
   font-size: 20px;
-  border-color: black;
+}
+
+.nav:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 li {
   display: inline-block;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  footer {
+    align-items: center;
+    height: 26%;
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
 }

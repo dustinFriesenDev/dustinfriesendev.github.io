@@ -39,7 +39,7 @@ body {
   text-decoration: none;
 }
 
-.portfolio:hover {
+#portfolio:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -171,4 +171,5 @@ input[type="text"] {
     left: 71%;
     bottom: 5%;
     transform: translateX(-50%);
+  }
   }
