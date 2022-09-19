@@ -59,7 +59,7 @@ button {
 
 .logo {
   width: 87%;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 .logo a {
@@ -344,8 +344,18 @@ button {
 }
 
 
-/* SCREEN 546px */
-@media only screen and (max-width: 546px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .logo {
+    padding-top: 35px;
+  }
+
+  .news-container {
+    text-align: left;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
   .nav-links {
     margin-right: 30px;
   } 
