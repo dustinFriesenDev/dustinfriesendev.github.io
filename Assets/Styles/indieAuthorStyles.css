@@ -20,6 +20,19 @@ body {
   font-family: 'Prociono', serif;
 }
 
+#portfolio {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#portfolio:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 /* BLUE BACKGROUND */
 .header-background {
@@ -128,13 +141,13 @@ li {
 /* HEADER STYLES  */
 header {
   width: 100%;
-  padding: 20px 0;
+  padding: 30px 0;
   margin: auto;
 }
 
 .logo {
   color: rgb(203,79,79);
-  margin: 0 80px; 
+  margin: 10px 80px 0; 
 }
 
 /* MAIN STYLES*/
@@ -203,6 +216,10 @@ header {
 }
 
 /* CONTACT STYLES */
+.comment {
+  font-size: 12px;
+  font-style: italic;
+}
 
 form {
   max-width: 75%;
@@ -241,6 +258,13 @@ textarea[placeholder] {
 
 button[type="submit"] {
   width: 60px;
+}
+
+.thank-you {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 70px;
+  font-family: 'La Belle Aurore', cursive;
 }
 
 
@@ -301,6 +325,14 @@ footer {
   box-shadow: 0px 0px 0 1px rgb(138, 138, 164) ;
   position: absolute;
 }
+
+  .thank-you {
+    font-size: 35px;
+    margin-top: 8px;
+    margin-left: 60px;
+    font-family: 'La Belle Aurore', cursive;
+  }
+
 
 /* Large devices (laptops/desktops, 992px and down) */
 @media only screen and (max-width: 992px) {

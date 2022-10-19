@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Indie Author</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/Assets/Styles/indieAuthorStyles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Prociono&display=swap" rel="stylesheet">
@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
 </head>
 <body>
+  <a href="../index.html" id="portfolio">Back to Portfolio</a>
     <div class="body-container">
     <header>
       <div class="header-background"></div>
@@ -82,7 +83,7 @@
         <div id="bio" class="bio centered-sections">
           <h2 class="sct-title">Who is This Guy?</h2>
           <div class="clearfix">
-            <img class="portrait img-style" src="images/sci-fi-3310140_1920.jpg" alt="Author brooding over his next book." width="160px" height="auto">
+            <img class="portrait img-style" src="/Assets/images/indieAuthorImages/sci-fi-3310140_1920.jpg" alt="Author brooding over his next book." width="160px" height="auto">
             <p >Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque in ipsum id orci porta dapibus. Cras ultricies ligula sed magna dictum porta. Donec rutrum congue leo eget malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. 
             </p>
             <p>
@@ -99,7 +100,7 @@
       <div class="bkgd-bt-rt"></div>
       <div class="sct-bckgd-rt">
       <div id="contact" class="contact centered-sections">
-        <h2 class="sct-title">Let's Talk</h2>
+        <h2 class="sct-title">Let's Talk <span class="comment">(fill in the required fields and see a small thank message.)</span></h2>
         <form id="letsTalk" method="post" action="">
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname">
@@ -111,6 +112,7 @@
           <textarea id="message" name="message" maxlength="1000" placeholder="What's on your mind?" required></textarea>
           
           <div id="sentMess" class="sentMess"> <!-- change of image after message is sent. -->
+            <h2 class="thank-you">Thank you!</h2>
             <div class="envelope"></div>
             <h3>Message Sent</h3>
             <p>I'll be in touch.</p>
@@ -130,13 +132,13 @@
       <div class="footer-background"></div>
       <div id="social" class="social">
         <ul>
-          <li><a href="https://www.facebook.com/"><img src="images/f_logo_RGB-Blue_72.png" alt="Facebook Logo" style="width: 32px; height: 32px; object-fit: cover;"></a></li>
-          <li><a href="https://twitter.com/"><img src="images/Twitter social icons - circle - blue.png" alt="Twitter Logo" style="width: 32px; height: 32px; object-fit: cover;">
+          <li><a href="https://www.facebook.com/"><img src="/Assets/images/indieAuthorImages/f_logo_RGB-Blue_72.png" alt="Facebook Logo" style="width: 32px; height: 32px; object-fit: cover;"></a></li>
+          <li><a href="https://twitter.com/"><img src="/Assets/images/indieAuthorImages/Twitter social icons - circle - blue.png" alt="Twitter Logo" style="width: 32px; height: 32px; object-fit: cover;">
           </a></li>
         </ul>
       </div>
     </footer>
   </div>
-  <script src="script.js"></script>
+  <script src="/Assets/Javascript/indieAuthorIScript.js"></script>
 </body>
 </html>

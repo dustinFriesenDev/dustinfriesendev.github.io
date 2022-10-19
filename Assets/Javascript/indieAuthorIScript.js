@@ -11,7 +11,7 @@ const latest = {
   <br>
   Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accumsan tincidunt.
   `, 
-  image:"images/fantasy-4379818_1920.jpg"
+  image:"/Assets/images/indieAuthorImages/fantasy-4379818_1920.jpg"
 }
 
 
@@ -27,7 +27,7 @@ const book1 = {
   <br>
   Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accumsan tincidunt.
   `, 
-  image:"images/templar-4298112_1920.jpg"
+  image:"/Assets/images/indieAuthorImages/templar-4298112_1920.jpg"
   }
 
 const book2 = {
@@ -42,7 +42,7 @@ const book2 = {
   <br>
   Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accumsan tincidunt.
   `, 
-  image:"images/night-4028339_1920.jpg"
+  image:"/Assets/images/indieAuthorImages/night-4028339_1920.jpg"
 }
 
 const book3 = {
@@ -57,7 +57,7 @@ const book3 = {
   <br>
   Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accumsan tincidunt.
   `, 
-  image:"images/camp-7103189.png"
+  image:"/Assets/images/indieAuthorImages/camp-7103189.png"
 }
 
 const book4 = {
@@ -72,7 +72,7 @@ const book4 = {
   <br>
   Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accumsan tincidunt.
   `, 
-  image:"images/portrait-4430290_1920.jpg"
+  image:"/Assets/images/indieAuthorImages/portrait-4430290_1920.jpg"
 }
 
 const book5 = {
@@ -87,7 +87,7 @@ const book5 = {
   <br>
   Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accumsan tincidunt.
   `, 
-  image:"images/temple-4933682_1920.jpg"
+  image:"/Assets/images/indieAuthorImages/temple-4933682_1920.jpg"
 }
 
 const book6 = {
@@ -102,7 +102,7 @@ const book6 = {
   <br>
   Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accumsan tincidunt.
   `, 
-  image:"images/fantasy-4379818_1920.jpg"
+  image:"/Assets/images/indieAuthorImages/fantasy-4379818_1920.jpg"
 }
 
 

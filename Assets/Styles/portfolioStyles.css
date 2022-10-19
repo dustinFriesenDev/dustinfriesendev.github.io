@@ -14,7 +14,6 @@ body{
 
 .body-column {
   width: 86%;
-  height: 98vh;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -90,12 +89,18 @@ header{
 
 .project-display {
   max-width: 300px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 img {
   object-fit: cover;
   border-radius: 5px;
   border: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+.img-padding {
+ margin: 0 4px;
 }
 
 .resize-bear {
