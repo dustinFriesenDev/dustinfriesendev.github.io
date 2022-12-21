@@ -156,6 +156,7 @@ footer {
 .social li img {
   border: none;
   margin: 3px;
+  padding: 0 3px;
 }
 
 .linkedin-style img {
