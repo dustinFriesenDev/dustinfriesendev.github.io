@@ -1,6 +1,6 @@
 
 //Grab image
-const grabImage = (e) => {
+function grabImage(e) {
     let clickImage = e.target.element;
     let imageSrc = e.target.src;
     if(clickImage == "img"){
@@ -19,6 +19,7 @@ img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = grabImage;
   captionText.innerHTML = this.alt;
+  console.log(grabImage);
 }
 
 // Get the <span> element that closes the modal
