@@ -1,23 +1,35 @@
-
-//Grab image
-function grabImage(event) {
-     let imageSrc = event.target.tagName;
-    
-}
-console.log(imageSrc);
 // Get the modal
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-// img.onclick = function(){
-//   modal.style.display = "block";
-//   modalImg.src = grabImage();
-//   captionText.innerHTML = this.alt;
-//   console.log(grabImage);
-// }
+const collectionImages = document.querySelectorAll("img");
+let imgId;
+let tarTagName;
+const imageId = e => {
+    console.log(e.target.id);
+}
+function myTag(event){
+    tarTagName = event.target.tagName;
+}
+
+for (let imageId of collectionImages){
+    imageId.addEventListener("click", imageId)
+}
+
+const sortImages = () => {
+    for (const singleImg of collectionImages){
+        if(singleImg.id == imgId){
+            return singleImg;
+        }
+    }
+}
+
+var img = sortImages();
+var modalImg = document.getElementById("modImg");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = img.src;
+}
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
