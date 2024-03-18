@@ -22,36 +22,36 @@
         <div>Tech Stack: Spring Boot, React, MySQL, Discourse, MapBox, and Auth0</div>
         <h2>home page</h2>
         <p>The home page loads a Missouri state map that call the MapBox API to render all the state parks and historical sites.</p>
-        <img class="pjt-img" src="./Assets/images/Trailblazers/home_top.JPG" onClick="grabImage()">
-        <img class="pjt-img"src="./Assets/images/Trailblazers/home_bottom.JPG">
+        <img id="img1" class="pjt-img" src="./Assets/images/Trailblazers/home_top.JPG" onclick="grabImage()">
+        <img id="img2" class="pjt-img"src="./Assets/images/Trailblazers/home_bottom.JPG">
       </div>
       <div>
         <h2>Logged in page</h2>
         <p>After logging in the nav bar is updated to include the users Trips taken and the user's profile information.</p>
-        <img class="pjt-img"src="./Assets/images/Trailblazers/home_top_loggedin.JPG">
+        <img id="img3" class="pjt-img"src="./Assets/images/Trailblazers/home_top_loggedin.JPG">
       </div>
       <div>
         <h2>Plants page</h2>
         <p>The plants page can be visited before or after logging in. It display a list of 52 plants that are found in Missouri state wide and not specific to any locaiton. There is no current database of plants online that shows the local plant life specific to a park or site.</p>
         <p>Clicking on the name of the plant on the left will show the details on the right.</p>
-        <img class="pjt-img"src="./Assets/images/Trailblazers/plants.JPG">
+        <img id="img4" class="pjt-img"src="./Assets/images/Trailblazers/plants.JPG">
       </div>
       <div>
         <h2>trip page top</h2>
         <p>The trip page is onlly available after logging in. This page allows the user to provide a name, location, date, and any notes for the trip in the input boxes. The middle container shows plants or animals and can be toggled by the button above the middle column. Here the user can add a plant to an array that will be connected to the trip or delete the plant's id from the array with the add or delete buttons. An image is shown on the right when the text is clicked.</p>
-        <img class="pjt-img"src="./Assets/images/Trailblazers/trip_top.JPG">
+        <img id="img5" class="pjt-img"src="./Assets/images/Trailblazers/trip_top.JPG">
       </div>
       <div>
         <h2>Trip page bottom</h2>
         <p>At the botom of the trip page, shows the trips the user has recorded as cards with an update button that repopulates the left and middle containers or the user can delete the card and is prompted to confirm the user wants to delete the trip.</p>
-        <img class="pjt-img"src="./Assets/images/Trailblazers/trip_bottom.JPG">
+        <img id="img6" class="pjt-img"src="./Assets/images/Trailblazers/trip_bottom.JPG">
       </div>
     </div>
 
   <!-- The Modal -->
     <div id="myModal" class="modal">
       <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
+      <img class="modal-content" id="modImg">
       <div id="caption"></div>
     </div>
 

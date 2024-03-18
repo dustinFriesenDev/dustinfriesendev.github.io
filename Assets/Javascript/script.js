@@ -1,13 +1,10 @@
 
 //Grab image
-function grabImage(e) {
-    let clickImage = e.target.element;
-    let imageSrc = e.target.src;
-    if(clickImage == "img"){
-        return imageSrc;
-    }
+function grabImage(event) {
+     let imageSrc = event.target.tagName;
+    
 }
-
+console.log(imageSrc);
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -15,12 +12,12 @@ var modal = document.getElementById("myModal");
 var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = grabImage;
-  captionText.innerHTML = this.alt;
-  console.log(grabImage);
-}
+// img.onclick = function(){
+//   modal.style.display = "block";
+//   modalImg.src = grabImage();
+//   captionText.innerHTML = this.alt;
+//   console.log(grabImage);
+// }
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
