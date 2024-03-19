@@ -24,12 +24,23 @@ const sortImages = () => {
     }
 }
 
-var img = sortImages();
+var img = document.getElementById("img1");
 var modalImg = document.getElementById("modImg");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = img.src;
 }
+
+const imgParent = document.getElementById("main");
+function clickImg(event){
+    if(event.target.tagName == "IMG"){
+        modal.style.display = "block";
+        modalImg.src = event.target.src;
+    } else {
+        return null;
+    }
+}
+imgParent.addEventListener("click", clickImg);
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
